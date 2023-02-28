@@ -8,15 +8,24 @@ list1*3
 list2+3 and etc this named operation on the list 
 
 """
-total = 0
-count = 0
+# total = 0
+# count = 0
+# while(True):
+#     inp = input('Enter a number: ')
+#     assert int (inp) 
+#     if inp == 'done': break
+#     value = float(inp)
+#     total = total+ value
+#     count = count +1
+#     average = total / count
+
+# print('average:' , average)
+myList = list()
+
 while(True):
     inp = input('Enter a number: ')
-    assert int (inp) 
     if inp == 'done': break
     value = float(inp)
-    total = total+ value
-    count = count +1
-    average = total / count
-
-print('average:' , average)
+    myList.append(value)
+average =  sum(myList) / len(myList)
+print('Average: ', average)
