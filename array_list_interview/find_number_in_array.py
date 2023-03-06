@@ -7,4 +7,4 @@ def find_element(array, number):
         if array[i]== number:
             print(i)
 
-find_element(my_array,1)
+find_element(my_array,11)

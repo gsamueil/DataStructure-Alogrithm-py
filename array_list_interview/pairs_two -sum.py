@@ -21,4 +21,4 @@ def find_pairs(nums, target):
                 print(i,j)
 
 nums=[2,3,5,7,8]
-find_pairs(nums,8)
+find_pairs(nums,12)

@@ -1,18 +1,18 @@
 {
-    "workbench.colorTheme": "Jupyter Theme Dark",
+    "workbench.colorTheme": "Predawn",
     "workbench.iconTheme": "ayu",
-    "editor.fontSize": 16,
+    "editor.fontSize": 22,
     "editor.fontWeight": "500",
     "editor.fontFamily": "Source Code Pro",
     "debug.console.fontFamily": "Source Code Pro",
-    "debug.console.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
+    "debug.console.fontSize": 22,
+    "terminal.integrated.fontSize": 22,
     "terminal.integrated.fontWeight": "600",
-    "window.zoomLevel": 0,
-    "python.pythonPath": "/venv/Scripts/",
+    "window.zoomLevel": 2,
+    "python.pythonPath": "/usr/local/bin/python3",
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
-    "python.linting.enabled": false,
+    "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
@@ -22,11 +22,7 @@
     "code-runner.ignoreSelection": true,
     "code-runner.saveFileBeforeRun": true,
     "[plaintext]": {
-        "editor.quickSuggestions": {
-            "comments": "off",
-            "strings": "off",
-            "other": "off"
-        }
+        "editor.quickSuggestions": false
     },
     "editor.quickSuggestionsDelay": 100,
     "zenMode.centerLayout": false,
